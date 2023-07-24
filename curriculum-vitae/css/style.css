@@ -1,0 +1,94 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5% /* 1rem = 10px*/;
+    
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+p{
+    margin: 0;
+    padding:.7em 0 ;
+    text-align: justify;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: .5em 0;
+}
+
+hr{
+    border: none;
+    background-color: #333;
+    height: 1px;
+    margin: 1em 0;
+}
+
+strong{
+    font-weight: bold;
+    letter-spacing: -0.04em; /* adjust as needed to make the letters*/
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: .8em auto;
+    border-radius: 5rem;
+}
+
+.container{
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* FOOTER */
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 0.5rem;
+}
+
+footer p{
+    margin: 0;
+    font-size:.8em;
+    text-align: center;
+}
+
